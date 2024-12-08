@@ -36,12 +36,15 @@ Approach
 
 1.	Sorting Chapters by Question Count:
 	•	I first sorted the chapters in descending order based on the total number of questions in each chapter. This ensures that chapters with the highest number of questions are prioritized for allocation.
-	2.	Maintaining a Limit:
+
+2.	Maintaining a Limit:
 	•	The limit variable is set to 30, representing the maximum allowable questions per chapter.
-	3.	Iterative Allocation:
+
+3.	Iterative Allocation:
 	•	For each chapter, I checked if it could fit into an existing group of chapters (i.e., a “new chapter”) without exceeding the limit.
 	•	If the chapter fit within the limit of an existing group, it was merged into that group.
 	•	Otherwise, it was added as a new chapter in the output list.
-	4.	Output:
+
+4.	Output:
 	•	The final regrouped chapters are displayed, ensuring the constraints are respected while minimizing the total number of chapters.
 
